@@ -32,7 +32,7 @@ const App = () => {
 
        <header className='header'id='header'>
             <div>
-               <img src=''></img>
+               <img src=''/>
                <p>Rodolfo Moreno LLacza</p>
             </div>   
             

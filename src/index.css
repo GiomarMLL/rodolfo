@@ -23,13 +23,12 @@
          position:fixed;
          bottom:20px;
          right:20px;
-         background:#006CA2;
-         color:White;
+         background:#1288E6;
+         color:#FBFBFA;
          border:none;
          font-size:25px;
          padding:11px 17px;
          z-index:2;
-         display:none;
      
      }
      .boton_deslizador:hover{
