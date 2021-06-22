@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Perfil = ({titulo,titulo2,universidad,tiempo}) => {
+const Perfil = ({img,titulo,titulo2,universidad,tiempo}) => {
   return (
     <>
        <article>
-          <img src=''></img>
+          <img src={img}width='232'/>
           <h3>{titulo}</h3>
           <h3>{titulo2}</h3>   
           <h4>{universidad}</h4>

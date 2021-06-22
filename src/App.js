@@ -8,6 +8,9 @@ import univdatas from './universidades_data'
 import prodatas from './proyectos_data'
 import Proyectos from './Proyectos'
 import Contacto from './Contacto'
+import logo from './img/logo.jpg'
+import gio from './img/gio.png'
+import code from './img/code.png'
 
 const App = () => {
  var contador= 0 ;
@@ -32,7 +35,7 @@ const App = () => {
 
        <header className='header'id='header'>
             <div>
-               <img src=''/>
+               <img src={logo}/>
                <p>Rodolfo Moreno LLacza</p>
             </div>   
             
@@ -70,9 +73,10 @@ const App = () => {
           <h2>Educación:</h2>
           <div className="universidades">
             {univdatas.map(univdata=>{
-              const {titulo,titulo2,universidad,tiempo} = univdata
+              const {img,titulo,titulo2,universidad,tiempo} = univdata
               return(
                 <Perfil 
+                   img = {img}
                    titulo = {titulo}
                    titulo2 = {titulo2}
                    universidad = {universidad}
@@ -87,9 +91,10 @@ const App = () => {
           <h2>Experiencia:</h2>
           <div className='empresa_exp'>
             {expdatas.map(expdata=>{
-              const {empresa,tiempo,funcion,concepto,concepto2} = expdata
+              const {img,empresa,tiempo,funcion,concepto,concepto2} = expdata
               return(
               <Experiencia
+                 img={img}
                  empresa={empresa}
                  tiempo={tiempo}
                  funcion={funcion}
@@ -113,10 +118,10 @@ const App = () => {
           <footer>
               <div className="creditos">
                   <p>copy Creado por</p>
-                  <img src="ie.PNG"/>
+                  <img src={gio}/>
               </div>
               <div className="otros"> 
-                  <a href="https://codekidsperu1234.000webhostapp.com/index.html"target="blank"><img src="code.PNG"/></a>     
+                  <a href="https://codekidsperu1234.000webhostapp.com/index.html"target="blank"><img src={code}/></a>     
               </div>   
               <div className="redes_foot">
                   <a  className="btn"href="https://www.facebook.com/rodolfo.llacza"target="_blank">      

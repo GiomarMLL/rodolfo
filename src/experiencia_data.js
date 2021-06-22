@@ -1,5 +1,12 @@
+import digital from './img/digo_logo.png'
+import arsac from './img/arsac.jpg'
+import telematica from './img/telematica.jpg'
+import voxiva from './img/voxiva.png'
+import indeci from './img/indeci.jpg'
+
 const experiencia = [
   {
+    img: digital,
     empresa: 'SMART SITE CONSTRUCTION',
     tiempo:'(2018-Actualidad)',
     funcion:'Gerente de Proyectos',
@@ -7,6 +14,7 @@ const experiencia = [
     concepto2:'ingeniería, construcción e inmobiliario, utilizando las nuevas tecnologías de información, automatización y robótica. Entre las principales soluciones desarrolladas están RemodelaTuHogar, GeoObras y el Sistema de Administracion de Contratos del MVCS'
   },
   {
+    img: arsac,
     empresa: 'ARSAC',
     tiempo: '(2015-2017)',
     funcion:'Gerente de Tecnoloǵia',
@@ -14,6 +22,7 @@ const experiencia = [
     concepto2:'un Plan estratégico de tecnologías de información con enfoque en transformación digital'
   },
   {
+    img: telematica,
     empresa:'TELEMATICA',
     tiempo: '(2011-2015)',
     funcion:'Software Senior GIS Developer',
@@ -21,6 +30,7 @@ const experiencia = [
     concepto2:'gestion de los proyectos, definición de estandares de desarrollo. Participe en proyectos de Telefónica del Perú, Osinergmin, Sedapal Antamina, Calidda. '  
   },
   {
+    img: voxiva,
     empresa:'VOXIVA',
     tiempo:'(2005-2010)',
     funcion:'Software Developer',
@@ -28,6 +38,7 @@ const experiencia = [
     concepto2:'En la primera etapa se desarrolló un motor de mapas usando Javascript, SVG y XML.'
   },
   {
+    img: indeci,
     empresa: 'INDECI',
     tiempo:'(2004-2005)',
     funcion:'Especialista CAD-SIG',

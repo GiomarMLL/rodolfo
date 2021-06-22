@@ -1,4 +1,4 @@
-
+    
       html{
         scroll-behavior:smooth;
    
@@ -136,7 +136,7 @@
               
               width:38%;
               height:382px;
-              /*background:url();*/
+              background:url(./img/rodolfo.PNG);
               background-size:cover;
              
            }
@@ -296,7 +296,7 @@
               padding:12px;
               float:left;   
               margin-right:22px;
-              transform:translateX(-181%);
+              /*transform:translateX(-181%);*/
               transition:1s;
             
          }
@@ -342,7 +342,7 @@
           
           }
           .proyecto-btn:hover {
-            color:black
+            color:skyblue
           }
           
           
@@ -364,13 +364,28 @@
              
           }
           .proyecto-title{
+              display:flex;
+              flex-direction: row;
               padding-bottom:18px
+          }
+          .proyecto-title div{
+              margin-right: 16px;
+          }
+          .proyecto-title h3{
+              line-height: 48px;
           }
           .proyecto-info{
               padding-bottom:25px
           }
           .proyecto-info h4{
               padding-bottom:8px
+          }
+          .proyecto-info img{
+            width: 65%;
+            max-width: 732px;
+            padding: 2px;
+            padding-top:18px;
+            box-sizing: border-box;  
           }
          
                 
@@ -612,6 +627,9 @@
        .proyectos .empresas_proyectos{
              width:100%;
         } 
+        .proyecto-info img{
+            width:85%;
+        }
         
         form input[type=text]{
              width:70%;
@@ -629,6 +647,7 @@
              min-width:70%;
              max-width:70%;
         }   
+      
             
      
     } 
@@ -688,49 +707,65 @@
            font-size:16px
        }
    }
+   @media screen and (max-width:550px){
+      .perfil p{  
+       text-align:left;
+      }
+      .titulos{
+       padding:8px;
+      }
+      .proyectos-info img{
+       width:90%
+      }
+      form input[type=text]{
+         width:80%;
+      }
+      form input[type=number]{
+         width:80%;
+      }  
+      form input[type=email]{
+         width:80%;
+      }  
+    
+      form input[type=submit]{
+         width:80%;
+      }  
+      form textarea{
+         min-width:80%;
+         max-width:80%;
+      }      
+      .content_info{ 
+        margin:0px auto;
+      }
+      footer{
+       justify-content:center;
+     }
+     .proyecto-info img{
+        width:95%;
+     }
+    
+   }
    @media screen and (max-width:525px){
        .btn-container{
-           flex-direction:column
+           width:100%;
+           display:flex;
+           flex-direction: row;
+       }
+       .btn-container button{
+           border: 1px solid white;
+           border-radius: 8px;
+           margin: 8px;
+           padding:22px;
+       }
+       .proyecto-btn{
+          font-size: 15px;      
        }
        .proyecto-article h4{
            font-size:18px
        }
    }
-   @media screen and (max-width:550px){
-        .perfil p{  
-          text-align:left;
-       }
-       .titulos{
-          padding:8px;
-       }
-        form input[type=text]{
-             width:80%;
-        }
-        form input[type=number]{
-             width:80%;
-        }  
-        form input[type=email]{
-             width:80%;
-        }  
-        
-        form input[type=submit]{
-             width:80%;
-        }  
-       form textarea{
-             min-width:80%;
-             max-width:80%;
-        }      
-       .content_info{ 
-            margin:0px auto;
-        }
-        footer{
-           justify-content:center;
-        }
-       
-
-     
-   }
-    @media screen and (max-width:430px){
+   
+    @media screen and (max-width:450px){
         .header p{
           font-size:18px;
            margin:3px;
@@ -744,62 +779,13 @@
           padding:1px 18px;
           text-align:center;
        }
-       .digital .digital_text img{
-          float:none;
-          display:block;
-          margin:auto;
+       .btn-container button{
+         margin: 8px;
+         padding:14px;
        }
-       .digital_text p{
-           text-align:center;
-           font-size:18px;
+       .proyecto-btn{
+         font-size: 16px; 
        }
-       .digital_text h3{
-           text-align:center;
-       }
-       
-      .digital .arsac_text img{
-          float:none;
-          display:block;
-          margin:auto;
-       }
-       .arsac_text p{
-           text-align:center;
-           font-size:18px;
-       }
-       .arsac_text h3{
-           text-align:center;
-       }
-        .titulos_arsac{
-          padding:1px;
-         
-       }
-       
-       .digital .tele_text img{
-          float:none;
-          display:block;
-          margin:auto;
-       }
-       .tele_text p{
-           text-align:center;
-           font-size:18px;
-       }
-       .tele_text h3{
-           text-align:center;
-       }
-        .titulos_tele{
-          padding:1px;
-         
-       }
-        .ventana p{
-             color:white;
-             font-size:18px;
-             padding:6px;
-        }
-        .ventana h3{
-             color:white;
-             font-size:23px;
-             padding:12px;
-          }
         .proyecto-article h4{
             font-size:16px
         }
@@ -840,6 +826,9 @@
        }
        .proyecto-article h4{
            font-size:15px;
+       }
+       .proyecto-info img{
+          width:100%;
        }
     
      
