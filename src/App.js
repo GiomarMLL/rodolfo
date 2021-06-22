@@ -73,12 +73,13 @@ const App = () => {
           <h2>Educación:</h2>
           <div className="universidades">
             {univdatas.map(univdata=>{
-              const {img,titulo,titulo2,universidad,tiempo} = univdata
+              const {img,titulo,titulo2,titulo3,universidad,tiempo} = univdata
               return(
                 <Perfil 
                    img = {img}
                    titulo = {titulo}
                    titulo2 = {titulo2}
+                   titulo3 = {titulo3}
                    universidad = {universidad}
                    tiempo = {tiempo}
                 />

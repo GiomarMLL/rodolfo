@@ -8,6 +8,7 @@ const universidades = [
     img: esan,
     titulo: 'Maestro en Dirección de',
     titulo2: 'Tecnologías de Información',
+    titulo3: '',
     universidad: 'Universidad Esan',
     tiempo : '(2015-2018)'
   },
@@ -15,13 +16,15 @@ const universidades = [
     img: cibertec,
     titulo: 'Especialista en Gestión',
     titulo2: 'de Proyectos',
+    titulo3: '',
     universidad: 'Cibertec',
     tiempo : '2012'
   },
   {
     img: udg,
-    titulo: 'Especialista en Gestión',
-    titulo2: 'de Proyectos',
+    titulo: 'Maestro en Gestión de',
+    titulo2: 'Sistemas de Información',
+    titulo3: 'Geográfica (MSc en GIS)',
     universidad: 'Universitat de Girona',
     tiempo : '(2005-2007)'
   },
@@ -29,6 +32,7 @@ const universidades = [
     img: uni,
     titulo: 'Ingeniero Civil',
     titulo2: '',
+    titulo3: '',
     universidad: 'UNI',
     tiempo : '(1992-1998)'
   }
