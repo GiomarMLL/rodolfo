@@ -3,6 +3,7 @@ import arsac from './img/arsac.jpg'
 import telematica from './img/telematica.jpg'
 import voxiva from './img/voxiva.png'
 import indeci from './img/indeci.jpg'
+import cismid from './img/cismid.jpg'
 
 const experiencia = [
   {
@@ -44,6 +45,14 @@ const experiencia = [
     funcion:'Especialista CAD-SIG',
     concepto: 'Especialista CAD-GIS en el proyecto de ciudades sostenibles de INDECI. Encargado de levantamiento de información, validación y control de calidad de datos cartográficos, así como',
     concepto2:'del análisis espacial para determinar el peligro, vulnerabilidad y riesgo sísmico de las localidades de Chosica, Matucana, Ricardo Palma y Santa Eulalia.'
+  },
+  {
+    img: cismid,
+    empresa: 'CISMID',
+    tiempo: '(2000-2004)',
+    funcion: 'Especialista SIG',
+    concepto: 'Investigador especialista en implementación de tecnologías de información geográfica en los diversos proyectos que el CISMID realizó como centro de investigación sísmica y mitigación de desastres.',
+    concepto2: ''
   }
 ]
 export default experiencia

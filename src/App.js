@@ -28,6 +28,7 @@ const App = () => {
     //console.log(contador)
   }
   return (
+
     <div className='contenedor'id='contenedor'>
        <div>
           <a href="#"><input type="button"value="^"className="boton_deslizador"id="boton_deslizador"/></a>
