@@ -8,9 +8,10 @@ import cismid from './img/cismid.jpg'
 
 // Proyectos de Rodolfo
 import mvcs1 from './img/mvcs_obra.png'
-import mvcs2 from './img/mvcs2.PNG'
+import mvcs2 from './img/mvcs1.png'
 import mvcs3 from './img/mvcs3.PNG'
 import ivc_obra from './img/obra_ivc.png'
+import ivc2_obra from './img/ivc2_obra.png'
 import pnud_obra from './img/pnud.png'
 import oefa_obra from './img/oefa_obra.png'
 import arsac_obra from './img/arsac_obra.png'
@@ -27,7 +28,9 @@ const proyectos = [
          'Consultoría para el desarrollo del Sistema de Administración de Contratos para Programa Nacional de', 
          'Saneamiento Urbano del Ministerio de Vivienda, Saneamiento y Construcción.'
         ],
-        img: mvcs2 
+        monto: 'Monto: 279,919.60 soles',
+        plazo: 'Plazo: 5 meses',
+        img: mvcs2       
       },
       {
         fecha: 'Febrero 2020 - Abril 2020',
@@ -63,10 +66,21 @@ const proyectos = [
     empresa: 'IVC',
     proyecto: [
       {
+        fecha: 'Agosto 2021 - Enero 2022',
+        descripcion:[
+          'Consultoría para el desarrollo de un sistema de gestión de obras visual georreferenciado - maker - last planner'
+        ],
+        monto: 'Monto: $ 47,247.20',
+        plazo: 'Plazo: 5 meses',
+        img: ivc2_obra
+      },
+      {
         fecha:'Octubre 2019 - Abril 2020',
         descripcion:[
           'Servicio de desarrollo de una aplicación para seguimiento y control de obras - Módulo de control de agregados.'
         ],
+        monto: 'Monto: 35,400.00 soles',
+        plazo: 'Plazo: 3 meses',
         img: ivc_obra
       }
     ]

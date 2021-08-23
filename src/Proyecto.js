@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaAngleDoubleRight } from 'react-icons/fa'
 
-const Proyecto = ({logo,empresa,proyecto}) => {
+const Proyecto = ({logo,empresa,proyecto,monto,plazo}) => {
   return (
     <article className='proyecto-article'>
        <div className='proyecto-title'>
@@ -19,6 +19,9 @@ const Proyecto = ({logo,empresa,proyecto}) => {
                 <p key={index}>{t}</p>
               )
            })}   
+           <br ></br>
+           <p>{proyect.monto}</p>
+           <p>{proyect.plazo}</p>
            <img src={proyect.img}/>
          </div>      
        ))}
