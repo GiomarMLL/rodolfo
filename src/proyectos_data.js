@@ -28,8 +28,8 @@ const proyectos = [
          'Consultoría para el desarrollo del Sistema de Administración de Contratos para Programa Nacional de', 
          'Saneamiento Urbano del Ministerio de Vivienda, Saneamiento y Construcción.'
         ],
-        monto: 'Monto: 279,919.60 soles',
-        plazo: 'Plazo: 5 meses',
+        monto: '279,919.60 soles',
+        plazo: '5 meses',
         img: mvcs2       
       },
       {
@@ -40,6 +40,8 @@ const proyectos = [
          'Servicio de la georreferenciación y vinculación del presupuesto con el GIS del Proyecto de "Creación de los Sistemas de Agua Potable dependientes del',
          'Reservorio N-39 y Alcantarillado Sanitario del distrito de Cerro Colorado,provincia de Arequipa, región de Arequipa" con CUI 2331093.'
         ],
+        monto: '',
+        plazo: '',
         img: mvcs3
       },
      
@@ -49,6 +51,8 @@ const proyectos = [
          'Servicio de levantamiento de procesos y requerimientos funcionales para digitalizar el seguimiento y control del proyecto de "ampliación,',
          'renovación y mejoramiento del sistema de agua potable y alcantarillado de la localidad de Caravelí"'
         ],
+        monto: '',
+        plazo: '',
         img: mvcs1
       },
       {
@@ -57,6 +61,8 @@ const proyectos = [
          'Servicio de georreferenciación y vinculación del presupuesto con el GIS del proyecto de "Ampliación, Renovación y Mejoramiento del',
          'sistema de agua potable y alcantarillado de la localidad de Caravelí".'
         ],
+        monto: '',
+        plazo: '',
         img: null
       }
     ]
@@ -70,8 +76,8 @@ const proyectos = [
         descripcion:[
           'Consultoría para el desarrollo de un sistema de gestión de obras visual georreferenciado - maker - last planner'
         ],
-        monto: 'Monto: $ 47,247.20',
-        plazo: 'Plazo: 5 meses',
+        monto: '$ 47,247.20',
+        plazo: '5 meses',
         img: ivc2_obra
       },
       {
@@ -79,8 +85,8 @@ const proyectos = [
         descripcion:[
           'Servicio de desarrollo de una aplicación para seguimiento y control de obras - Módulo de control de agregados.'
         ],
-        monto: 'Monto: 35,400.00 soles',
-        plazo: 'Plazo: 3 meses',
+        monto: '35,400.00 soles',
+        plazo: '3 meses',
         img: ivc_obra
       }
     ]
@@ -95,6 +101,8 @@ const proyectos = [
          'Desarrollo e implementación de un geoportal orientado a web con información referida a áreas naturales protegidas, así como realizar el análisis y diseño para desarrollar e implementar',
          'plataformas espaciales referidas a commodities verdes y actividades diversas ejecutadas en campo por el proyecto paisajes productivos sostenibles pps.'
         ],
+        monto: '',
+        plazo: '',
         img: pnud_obra
       }
     ]
@@ -109,6 +117,8 @@ const proyectos = [
            'Servicio para el mantenimiento y la implementación de mejoras en la interfaz de la aplicación de monitoreo ambiental de la OEFA. Servicio para la elaboración de aplicación SIG para la ',
            'determinación de indicadores de calidad de agua en el ámbito de la cuenca del río pucará alcance y descripción del servicio.'
          ],
+         monto: '',
+         plazo: '',
          img: oefa_obra
        }
     ]
@@ -122,6 +132,8 @@ const proyectos = [
          descripcion:[
            'Desarrollo e implementación de un ERP a medida, usando tecnologías .NET, web, móviles y GIS.'
          ],
+         monto: '',
+         plazo: '',
          img: arsac_obra
        }
     ]
@@ -135,6 +147,8 @@ const proyectos = [
          descripcion:[
            'Desarrollo de un sistema de gestión de exploraciones geotécnicas que permita visualizar y realizar análisis geotécnico en tiempo real.'
          ],
+         monto: '',
+         plazo: '',
          img: cismid_obra
        }
     ]

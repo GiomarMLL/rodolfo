@@ -20,9 +20,13 @@ const Proyecto = ({logo,empresa,proyecto,monto,plazo}) => {
               )
            })}   
            <br ></br>
-           <p>{proyect.monto}</p>
-           <p>{proyect.plazo}</p>
-           <img src={proyect.img}/>
+           {proyect.monto === '' ? '' : 
+             <>
+              <p> <b>Monto:</b> {proyect.monto}</p>
+              <p> <b>Plazo:</b> {proyect.plazo}</p>
+             </>
+           }
+           <img style={{width:'120%'}}src={proyect.img}/>
          </div>      
        ))}
           
