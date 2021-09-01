@@ -36,7 +36,7 @@ const experiencia = [
     tiempo:'(2005-2010)',
     funcion:'Software Developer',
     concepto:'Software Developer, encargado de la investigación, desarrollo y soporte del sistema de mapeo web para el framework de Voxiva.',
-    concepto2:'En la primera etapa se desarrolló un motor de mapas usando Javascript, SVG y XML.'
+    concepto2:'En la primera etapa se desarrolló un motor de mapas usando Javascript, SVG y XML. Posteriormente se investigó el estado del arte de servidores de mapas, y posteriormente se implementó y se integró MapGuide OS al framework .NET de la organización.'
   },
   {
     img: indeci,
