@@ -211,7 +211,7 @@
             display:flex;     
             justify-content:center;
             flex-wrap:wrap;
-            margin-top:-2%;
+            margin-top:-3%;
          
        }
        .perfil article{
@@ -219,7 +219,7 @@
         
        }
        .perfil img{
-          padding:15px;
+          padding:13px;
           
        }
    
