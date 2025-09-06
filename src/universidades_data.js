@@ -2,6 +2,7 @@ import esan from './img/esan.png'
 import cibertec from './img/ciber.png'
 import udg from './img/udg.jpg'
 import uni from './img/uni.png'
+import stanford from './img/stanford_logo.jpeg'
 
 const universidades = [
   {
@@ -11,14 +12,6 @@ const universidades = [
     titulo3: '',
     universidad: 'Universidad Esan',
     tiempo : '(2015-2018)'
-  },
-  {
-    img: cibertec,
-    titulo: 'Especialista en Gestión',
-    titulo2: 'de Proyectos',
-    titulo3: '',
-    universidad: 'Cibertec',
-    tiempo : '2012'
   },
   {
     img: udg,
@@ -35,6 +28,22 @@ const universidades = [
     titulo3: '',
     universidad: 'UNI',
     tiempo : '(1992-1998)'
-  }
+  },
+  {
+    img: stanford,
+    titulo:'Certificado VDC',
+    titulo2:'',
+    titulo3:'Universidad',
+    universidad: 'de Stanford',
+    tiempo:'(2021-2022)',
+  },
+  {
+    img: cibertec,
+    titulo: 'Especialista en Gestión',
+    titulo2: 'de Proyectos',
+    titulo3: '',
+    universidad: 'Cibertec',
+    tiempo : '2012'
+  },
 ]
 export default universidades
